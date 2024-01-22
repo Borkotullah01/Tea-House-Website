@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea House Website</title>
+
+    <!-- Manrope Google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Manrope Google font link -->
+
+    <!-- daysiui and tailwind css link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- daysiui and tailwind css link -->
+
+    <!-- Tailwind custom color -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+    <!-- Tailwind custom color -->
+    <style>
+        .font-manrope{
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+</head>
+<body class="font-manrope">
+    <!-- header section -->
+    <header>
+        <div class="container mx-auto flex-col justify-between my-12">
+            <div class="hero-content flex-col lg:flex-row">
+              <div class="fex-1">
+                <h1 class="text-5xl font-bold">It's good <br> tea time at The Tea House</h1>
+                <p class="py-6 text-base font-medium">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+                <button class="btn text-white text-lg bg-gradient-to-r from-[#FF8938] to-[#F00]">Explore More</button>
+              </div>
+              <img class="fex-1" src="images/banner.png" />
+            </div>
+        </div>
+    </header>
+    <!-- header section -->
+    <!-- main section -->
+    <main>
+        <!-- Our Featured Products section -->
+        <div class="container px-5 flex-col flex justify-center  text-center mx-auto my-12">
+            <h2 class="text-4xl">Our Featured Products</h2>
+            <p class="py-6 text-sm font-medium">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+            <!-- Product card container  -->
+            <div class="grid gap-5 grid-cols-1 lg:grid-cols-4 mt-12">
+                <div class="card bg-gradient-to-b from-[#F4F4F4] to-[#F4F4F400] p-8 shadow-xl bordered">
+                    <img class="px-10" src="images/tea-1.png" />
+                    <div class="space-y-3 mt-5">
+                      <h2 class="text-center text-xl font-bold">Shoes!</h2>
+                      <p class="text-sm font-medium">If a dog chews shoes whose shoes does he choose?</p>
+                    </div>
+                </div>
+                <div class="card bg-gradient-to-b from-[#F4F4F4] to-[#F4F4F400] p-8 shadow-xl bordered">
+                    <img class="px-10" src="images/tea-2.png" />
+                    <div class="space-y-3 mt-5">
+                      <h2 class="text-center text-xl font-bold">Shoes!</h2>
+                      <p class="text-sm font-medium">If a dog chews shoes whose shoes does he choose?</p>
+                    </div>
+                </div>
+                <div class="card bg-gradient-to-b from-[#F4F4F4] to-[#F4F4F400] p-8 shadow-xl bordered">
+                    <img class="px-10" src="images/tea-3.png" />
+                    <div class="space-y-3 mt-5">
+                      <h2 class="text-center text-xl font-bold">Shoes!</h2>
+                      <p class="text-sm font-medium">If a dog chews shoes whose shoes does he choose?</p>
+                    </div>
+                </div>
+                <div class="card bg-gradient-to-b from-[#F4F4F4] to-[#F4F4F400] p-8 shadow-xl bordered">
+                    <img class="px-10" src="images/tea-4.png" />
+                    <div class="space-y-3 mt-5">
+                      <h2 class="text-center text-xl font-bold">Shoes!</h2>
+                      <p class="text-sm font-medium">If a dog chews shoes whose shoes does he choose?</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Product card container  -->
+        </div>
+        <!-- Our Featured Products section -->
+
+        <!-- Great Tea Freshly Presented section -->
+        <div class="container px-5 mx-auto flex-col justify-between my-12">
+            <div class="flex mx-auto gap-12 flex-col lg:flex-row">
+                <div class="flex-1 grid gap-7 grid-cols-1 lg:grid-cols-2">
+                    <div class="h-[136px] rounded bg-gradient-to-r from-[#F00] to-[#FF8938] opacity-10"></div>
+                    <div class="flex justify-center row-span-2 p-10 rounded bg-[#E6A6231A]">
+                        <img src="images/fresh-1.png" alt="">
+                    </div>
+                    <div class="flex justify-center row-span-2 p-10 rounded bg-[#5776391A]">
+                        <img src="images/fresh-2.png" alt="">
+                    </div>
+                    <div class="h-[136px] rounded bg-gradient-to-r from-[#D9D9D9] to-[#fcfcfc]">
+
+                    </div>
+                </div>
+                <div class="flex flex-col justify-center">
+                        <h1 class="text-4xl text-left font-bold">It's good <br> tea time at The Tea House</h1>
+                        <p class="py-6 text-left text-sm font-medium">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+                        <h3 class="text-xl font-extrabold mt-5">Unique Taste</h3>
+                        <p class="text-sm font-medium">
+                            A Unique and different style from other teapots gives a luxurious and minimalist impression
+                        </p>
+                        <h3 class="text-xl font-extrabold mt-5">Unique Taste</h3>
+                        <p class="text-sm font-medium">
+                            A Unique and different style from other teapots gives a luxurious and minimalist impression
+                        </p>
+                </div>
+            </div>
+        </div>
+        <!-- Great Tea Freshly Presented section -->
+
+        <!-- Meet Our Super Clients section -->
+        <section class="containermx-auto px-5 my-12">
+            <div class="flex flex-col lg:flex-row p-16 bg-gradient-to-r from-[#FF8938] to-[#F00] rounded">
+                <div class="flex flex-1 flex-col justify-center">
+                    <h1 class="text-4xl text-white text-left font-bold">Meet Our Super Clients</h1>
+                    <p class="py-6 text-left text-white text-sm font-medium">
+                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. 
+                    </p>
+                    <div>
+                        <button class="btn text-[#F00]">Show All</button>
+                    </div>
+                </div>
+                <div class="flex-1 flex flex-col items-end">
+                    <div class="grid relative grid-cols-1 gap-12 card w-96 shadow-xl">
+                        <div class="card-body rounded-md h-[233px] bg-white opacity-40">
+                            <p class="text-sm text-gray-500 font-medium">
+                                A Unique and different style from other teapots gives a luxurious and minimalist impression
+                            </p>
+                            <h3 class="text-xl font-extrabold mt-5">Unique Taste</h3>
+                            <p class="text-sm text-gray-500 font-medium">
+                                A Unique and different style from other teapots gives a luxurious and minimalist impression
+                            </p>
+                        </div>
+                        <div class="card-body w-96 rounded-md h-[233px] absolute -left-24 top-[25%] bg-white z-10">
+                            <p class="text-sm text-gray-500 font-medium">
+                                A Unique and different style from other teapots gives a luxurious and minimalist impression
+                            </p>
+                            <h3 class="text-xl font-extrabold mt-5">Unique Taste</h3>
+                            <p class="text-sm text-gray-500 font-medium">
+                                A Unique and different style from other teapots gives a luxurious and minimalist impression
+                            </p>
+                            <img class="w-[15%] absolute -top-6 -left-6 bg-white border-2 rounded-full" src="images/client.png" alt="">
+                        </div>
+                        <div class="card-body rounded-md h-[233px] bg-white opacity-40">
+                            <p class="text-sm text-gray-500 font-medium">
+                                A Unique and different style from other teapots gives a luxurious and minimalist impression
+                            </p>
+                            <h3 class="text-xl font-extrabold mt-5">Unique Taste</h3>
+                            <p class="text-sm text-gray-500 font-medium">
+                                A Unique and different style from other teapots gives a luxurious and minimalist impression
+                            </p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </section>
+        <!-- Meet Our Super Clients section -->
+
+        <!-- News & Events section -->
+        <section class="container mx-auto px-5 my-12">
+            <h2 class="text-4xl font-extrabold text-center">Our Featured Products</h2>
+            <p class="py-6 text-sm font-medium text-center">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+            <div class="grid gap-6 justify-center grid-cols-1 lg:grid-cols-3">
+                <div class="card mx-auto w-96 bg-base-100 shadow-xl bordered">
+                    <div class="px-5 pt-10">
+                      <img src="images/news-1.png" alt="Shoes" class="rounded-xl mx-auto" />
+                    </div>
+                    <div class="card-body">
+                        <p class="text-sm font-normal">Feb 05, 2027</p>
+                        <h2 class="text-xl font-extrabold">Collecting 8 points for discount</h2>
+                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <div class="card-actions">
+                          <a class="text-base font-bold" href="">Learn More</a>
+                        </div>
+                    </div>
+                  </div>
+                <div class="card mx-auto w-96 bg-base-100 shadow-xl bordered">
+                    <figure class="px-5 pt-10">
+                      <img src="images/news-2.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body">
+                        <p class="text-sm font-normal">Feb 05, 2027</p>
+                        <h2 class="text-xl font-extrabold">Collecting 8 points for discount</h2>
+                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <div class="card-actions">
+                          <a class="text-base font-bold" href="">Learn More</a>
+                        </div>
+                    </div>
+                  </div>
+                <div class="card mx-auto w-96 bg-base-100 shadow-xl bordered">
+                    <figure class="px-5 pt-10">
+                      <img src="images/news-3.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body">
+                        <p class="text-sm font-normal">Feb 05, 2027</p>
+                        <h2 class="text-xl font-extrabold">Collecting 8 points for discount</h2>
+                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <div class="card-actions">
+                          <a class="text-base font-bold" href="">Learn More</a>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+        <!-- News & Events section -->
+    </main>
+    <!-- main section -->
+    <!-- footer section -->
+    <footer class="footer p-10 bg-base-200 text-base-content">
+        <nav>
+          <header class="footer-title">Services</header> 
+          <a class="link link-hover">Branding</a>
+          <a class="link link-hover">Design</a>
+          <a class="link link-hover">Marketing</a>
+          <a class="link link-hover">Advertisement</a>
+        </nav> 
+        <nav>
+          <header class="footer-title">Company</header> 
+          <a class="link link-hover">About us</a>
+          <a class="link link-hover">Contact</a>
+          <a class="link link-hover">Jobs</a>
+          <a class="link link-hover">Press kit</a>
+        </nav> 
+        <nav>
+          <header class="footer-title">Legal</header> 
+          <a class="link link-hover">Terms of use</a>
+          <a class="link link-hover">Privacy policy</a>
+          <a class="link link-hover">Cookie policy</a>
+        </nav> 
+        <form>
+          <header class="footer-title">Newsletter</header> 
+          <fieldset class="form-control w-80">
+            <label class="label">
+              <span class="label-text">Enter your email address</span>
+            </label> 
+            <div class="join">
+              <input type="text" placeholder="username@site.com" class="input input-bordered join-item" /> 
+              <button class="btn btn-primary join-item">Subscribe</button>
+            </div>
+          </fieldset>
+        </form>
+      </footer>
+    <!-- footer section -->
+</body>
+</html>
